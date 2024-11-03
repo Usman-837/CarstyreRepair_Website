@@ -36,6 +36,12 @@ const Header = () => {
                     <li><a href="#"><FaTwitter /></a></li>
                 </ul>
             </div>
+            {/* Appointment Button */}
+            <div className='flex items-center'>
+                <a href='#' className='bg-[#BB0612] text-center text-sm py-[15px] px-[35px] hover:bg-transparent'>                
+                    Take Appointment
+                </a>
+            </div>
         </div>
     </header>
   )
