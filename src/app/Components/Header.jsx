@@ -1,6 +1,11 @@
 import React from 'react'
 import { CiLocationOn } from "react-icons/ci"
 import { TfiEmail } from "react-icons/tfi"
+import { FaFacebookF } from "react-icons/fa6"
+import { TiSocialLinkedin } from "react-icons/ti"
+import { FaInstagram } from "react-icons/fa6"
+import { FaTwitter } from "react-icons/fa"            
+
 
 const Header = () => {
   return (
@@ -18,9 +23,18 @@ const Header = () => {
             <div className='flex gap-3 items-center'>
                 <TfiEmail className='text-3xl text-[#A00B15]'/>
                 <div>
-                    <h5 className='font-semibold text-lg'>Office Location</h5>
+                    <h5 className='font-semibold text-lg'>Mail Us</h5>
                     <p className='text-[15px]'><a href=''>info@carstyrerepair.com</a></p>
                 </div>
+            </div>
+            {/* Social Icons */}
+            <div className='flex items-center'>
+                <ul className='flex gap-3'>
+                    <li><a href="#"><FaFacebookF /></a></li>
+                    <li><a href="#"><TiSocialLinkedin /></a></li>
+                    <li><a href="#"><FaInstagram /></a></li>
+                    <li><a href="#"><FaTwitter /></a></li>
+                </ul>
             </div>
         </div>
     </header>
