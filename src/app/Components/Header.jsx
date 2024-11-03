@@ -1,5 +1,6 @@
 import React from 'react'
 import { CiLocationOn } from "react-icons/ci"
+import { TfiEmail } from "react-icons/tfi"
 
 const Header = () => {
   return (
@@ -11,6 +12,14 @@ const Header = () => {
                 <div>
                     <h5 className='font-semibold text-lg'>Office Location</h5>
                     <p className='text-[15px]'>Dubai</p>
+                </div>
+            </div>
+            {/* Mail */}
+            <div className='flex gap-3 items-center'>
+                <TfiEmail className='text-3xl text-[#A00B15]'/>
+                <div>
+                    <h5 className='font-semibold text-lg'>Office Location</h5>
+                    <p className='text-[15px]'><a href=''>info@carstyrerepair.com</a></p>
                 </div>
             </div>
         </div>
