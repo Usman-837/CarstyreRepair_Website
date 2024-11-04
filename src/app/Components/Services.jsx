@@ -67,21 +67,29 @@ const Services = () => {
     ];
 
     return (
-        <section className='flex items-center justify-center'>
-            <div className='w-full max-w-[1200px]'>
-                <div className='pb-[150px]'>
-                    <p className="mb-4 px-3 text-base font-bold text-[#BB0612]">// Our Services //</p>
-                    <h2 className='mb-2 px-3 font-semibold text-4xl'>Our Best Features</h2>
+        <>
+            <section className='flex items-center justify-center' id='services'>
+                <div className='w-full max-w-[1200px]'>
+                    <div className='pb-[150px]'>
+                        <p className="mb-4 px-3 text-base font-bold text-[#BB0612]">// Our Services //</p>
+                        <h2 className='mb-2 px-3 font-semibold text-4xl'>Our Best Features</h2>
+                    </div>
                 </div>
-                <div className='flex flex-wrap'>
-                    {
-                        servicCards.map((data) => {
-                            return (
-                                <div key={data.id} className='w-full max-w-[376px] mx-3'>
-                                    <Image src={data.img1} className='h-[230px]' />
-                                    <div className='p-6 h-[353px]'>
+            </section>
+            <section id='services' className='relative flex items-center justify-center' style={{backgroundImage: "url('/Assets/banner-bg.jpg')", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-black bg-opacity-75"></div>
+
+                {/* Content */}
+                <div className='relative w-full max-w-[1200px] top-[-115px]'>
+                    <div className='flex flex-wrap justify-center'>
+                        {
+                            servicCards.map((data) => (
+                                <div key={data.id} className='w-full max-w-[376px] m-3'>
+                                    <Image src={data.img1} className='h-[230px]' alt={data.title} />
+                                    <div className='p-6 h-[353px] bg-white'>
                                         <h4 className='font-bold text-[22px] mb-2'>{data.title}</h4>
-                                        <p className='mb-4 text-[15px] leading-custom-1.9'>{data.des}</p>
+                                        <p className='mb-4 text-[15px] leading-[1.9]'>{data.des}</p>
                                         <ul className='list-disc pl-8'>
                                             <li>{data.listItem1}</li>
                                             <li>{data.listItem2}</li>
@@ -94,12 +102,14 @@ const Services = () => {
                                         </div>
                                     </div>
                                 </div>
-                            )
-                        })
-                    }
+                            ))
+                        }
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+        </>
+
     )
 }
 
