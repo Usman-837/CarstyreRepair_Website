@@ -8,6 +8,14 @@ function Navbar() {
         <div className='flex justify-between items-center w-full max-w-[1200px] bg-[#FFFFFF] h-[76px] py-2 px-2 absolute top-24 max-lg:top-0'>
             {/* logo */}
             <Image src={logo} className='w-[150px] h-[60px]'/>
+            <div>
+              <ul className="flex text-[#222222] text-[15px] font-sans">
+                <li className="pr-4"><a href="#home" className="p-2 active:text-[#BB0612]">Home</a></li>
+                <li className="pr-4"><a href="#home" className="p-2 hover:text-[#BB0612]">About</a></li>
+                <li className="pr-4"><a href="#home" className="p-2 hover:text-[#BB0612]">Services</a></li>
+                <li className="pr-4"><a href="#home" className="p-2 hover:text-[#BB0612]">Contact Us</a></li>
+              </ul>
+            </div>
         </div>
     </nav>
   )
