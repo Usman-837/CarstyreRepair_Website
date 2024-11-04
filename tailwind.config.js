@@ -18,6 +18,9 @@ module.exports = {
       opacity: {
         85: '0.85', // For example, 85% opacity
       },
+      lineHeight: {
+        'custom-1.9': '1.9',
+      },
     },
   },
   plugins: [],

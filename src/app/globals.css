@@ -7,6 +7,12 @@
 @import '@fontsource/montserrat';
 @import 'typeface-roboto';
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
