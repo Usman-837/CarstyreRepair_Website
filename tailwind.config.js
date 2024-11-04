@@ -14,6 +14,10 @@ module.exports = {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
       },
+      roboto: ['Roboto', 'sans-serif'], // Custom font class for Roboto
+      opacity: {
+        85: '0.85', // For example, 85% opacity
+      },
     },
   },
   plugins: [],
