@@ -16,6 +16,10 @@ function Navbar() {
                 <li className="pr-4"><a href="#home" className="p-2 hover:text-[#BB0612]">Contact Us</a></li>
               </ul>
             </div>
+            {/* Appointment button */}
+            <div className="bg-[#BB0612] text-white py-[15px] px-[35px] hover:bg-[#222222] text-sm font-sans">
+              <a href="#">+971557474109</a>
+            </div>
         </div>
     </nav>
   )
