@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

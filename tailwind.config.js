@@ -21,6 +21,18 @@ module.exports = {
       lineHeight: {
         'custom-1.9': '1.9',
       },
+      fontSize: {
+        fifteen: '15px',
+        seventeen: '17px'
+      },
+      padding: {
+        fifteen: '15px',
+        thirtyfive: '35px',
+        fiftyfive: '55px'
+      },
+      margin: {
+        twintytwo: '22px'
+      },
     },
   },
   plugins: [],
