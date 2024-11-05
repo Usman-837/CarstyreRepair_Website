@@ -73,7 +73,7 @@ export default function ChooseUs() {
                 {/* Cards */}
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-3 pt-5'>
                     {chooseusCards.map((data) => (
-                        <div key={data.id} className='h-[371px] flex flex-col items-center justify-center px-3 pt-4 mb-4  text-center bg-white'>
+                        <div key={data.id} className={`h-[371px] flex flex-col items-center justify-center px-3 pt-4 text-center bg-white ${data.id % 2 === 0 ? 'mt-12 mb-6 mx-1' : ''}`}>
                             <div className='w-[95px] h-[95px] bg-[#BB0612] flex items-center justify-center rounded-lg'>
                                 <Image src={data.img} alt={data.title} width={75} height={75} />
                             </div>
