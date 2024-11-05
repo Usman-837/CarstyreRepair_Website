@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar"
 import Banner from "./Components/Banner"
 import Features from "./Components/Features";
 import Services from "./Components/Services";
+import ChooseUs from "./Components/ChooseUs";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Banner/>
       <Features/>
       <Services/>
+      <ChooseUs/>
     </div>
   );
 }
