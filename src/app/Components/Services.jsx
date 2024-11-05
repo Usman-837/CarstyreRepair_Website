@@ -78,11 +78,11 @@ const Services = () => {
             </section>
             <section id='services' className='relative flex items-center justify-center' style={{backgroundImage: "url('/Assets/banner-bg.jpg')", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-75"></div>
+                <div className="absolute inset-0 bg-black bg-opacity-85"></div>
 
                 {/* Content */}
                 <div className='relative w-full max-w-[1200px] top-[-115px]'>
-                    <div className='flex flex-wrap justify-center'>
+                    <div className='flex flex-wrap justify-center mb-4'>
                         {
                             servicCards.map((data) => (
                                 <div key={data.id} className='w-full max-w-[376px] m-3'>
@@ -104,6 +104,14 @@ const Services = () => {
                                 </div>
                             ))
                         }
+                    </div>
+                    <div className='flex items-center justify-center text-center flex-wrap gap-x-4 pt-[90px] px-4'>
+                        <h1 className='font-bold text-white text-6xl max-md:text-4xl'>Fastest on-site Tyre Repair </h1>
+                        <div className='flex items-center text-white max-xl:mt-12'>
+                            <a href='#' className='bg-[#BB0612] text-center text-sm py-[15px] px-[35px] hover:bg-[#222222]'>
+                                Call Now +971557474109
+                            </a>
+                        </div> 
                     </div>
                 </div>
             </section>
