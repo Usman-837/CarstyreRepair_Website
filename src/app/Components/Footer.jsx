@@ -5,7 +5,8 @@ import { FaFacebookF } from "react-icons/fa6"
 import { FaLinkedinIn } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa6"
 import { FaGoogle } from "react-icons/fa"
-import { TiTick } from "react-icons/ti";
+import { TiTick } from "react-icons/ti"
+import footerImg from "../Assets/footer.webp"
 
 export default function Footer() {
   return (
@@ -25,7 +26,7 @@ export default function Footer() {
         </div>
       </section>
       {/* footer section */}
-      <section className='flex items-center justify-center'>
+      <section className='flex items-center justify-center text-white' style={{ backgroundImage: "url('/Assets/footer-bg.jpg')" }}>
         <div className='container py-12 px-3'>
           <div className='flex'>
             <div className='flex flex-col items-start w-full max-w-300 mb-6 px-3'>
@@ -59,6 +60,10 @@ export default function Footer() {
                 <li><a href='#' className='hover:text-[#BB0612]'>Phone:+971-55-747-4109</a></li>
                 <li><a href='#' className='hover:text-[#BB0612]'>Email:info@carstyrerepair.com</a></li>
               </ul>
+            </div>
+            {/* Footer image */}
+            <div>
+                <Image src={footerImg}/>
             </div>
           </div>
         </div>
