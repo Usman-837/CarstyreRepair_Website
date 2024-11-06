@@ -6,6 +6,7 @@ import Services from "./Components/Services";
 import ChooseUs from "./Components/ChooseUs";
 import Testimonial from "./Components/Testimonial";
 import Footer from "./Components/Footer";
+import Whatsapp from "./Components/Whatsapp";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <ChooseUs/>
       <Testimonial/>
       <Footer/>
+      <Whatsapp/>
     </div>
   );
 }
