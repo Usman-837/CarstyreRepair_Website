@@ -5,6 +5,7 @@ import { FaFacebookF } from "react-icons/fa6"
 import { FaLinkedinIn } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa6"
 import { FaGoogle } from "react-icons/fa"
+import { TiTick } from "react-icons/ti";
 
 export default function Footer() {
   return (
@@ -26,8 +27,8 @@ export default function Footer() {
       {/* footer section */}
       <section className='flex items-center justify-center'>
         <div className='container py-12 px-3'>
-          <div>
-            <div className='flex flex-col'>
+          <div className='flex'>
+            <div className='flex flex-col items-start w-full max-w-300 mb-6 px-3'>
               {/* Logo */}
               <Image src={logo} className='w-onefifty h-sixty' />
               <p className='py-2 my-6 text-fifteen'>If you are in the middle of something and you don’t want to miss that important call that could be the start of an exciting new business</p>
@@ -40,6 +41,14 @@ export default function Footer() {
                   <li><a href="#"><FaLinkedinIn /></a></li>
                 </ul>
               </div>
+            </div>
+            <div className='mb-6 px-3'>
+              <h5 className='flex items-center mb-6 font-semibold'><p className='bg-[#BB0612] w-seven h-seven mr-2.5'></p>Services</h5>
+              <ul className='flex flex-col gap-y-3'>
+                <li><a href='#' className='flex items-center text-fifteen hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>Auto Maintenance</a></li>
+                <li><a href='#' className='flex items-center text-fifteen hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>Change Tires</a></li>
+                <li><a href='#' className='flex items-center text-fifteen hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>New Tires</a></li>
+              </ul>
             </div>
           </div>
         </div>

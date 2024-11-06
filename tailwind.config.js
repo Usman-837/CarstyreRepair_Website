@@ -35,10 +35,18 @@ module.exports = {
         twintytwo: '22px',
       },
       width: {
-        'onefifty': '150px'
+        'onefifty': '150px',
+        'twenty': '20px',
+        'seven': '7px',
+        'five': '5px'
+      },
+      maxWidth: {
+        '300': '300px',
       },
       height: {
         'sixty': '60px',
+        'twenty': '20px',
+        'seven': '7px'
       }
     },
   },
