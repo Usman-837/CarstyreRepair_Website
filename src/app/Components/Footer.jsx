@@ -12,13 +12,13 @@ export default function Footer() {
   return (
     <footer>
       {/* Emergency call section */}
-      <section className='flex items-center justify-center w-full max-w-[1250px] py-12 bg-[#BB0612]'>
-        <div className='container flex items-center justify-between py-4 mx-3 text-white'>
+      <section className='flex items-center justify-center w-full max-w-[1250px] py-12 bg-red'>
+        <div className='container flex items-center justify-between max-md:flex-col max-md:justify-center max-md:text-center py-4 mx-3 text-white'>
           <div className='px-3'>
-            <h1 className='font-bold text-6xl mb-2'>EMERGENCY CALL</h1>
-            <h4 className='text-twintytwo mb-2'>BOOK NOW AND TAKE OUR SUPER SERVICE</h4>
+            <h1 className='font-bold text-6xl max-md:text-4xl mb-2'>EMERGENCY CALL</h1>
+            <h4 className='text-twintytwo max-md:text-lg mb-2'>BOOK NOW AND TAKE OUR SUPER SERVICE</h4>
           </div>
-          <div className='flex items-center text-[#BB0612]'>
+          <div className='flex items-center text-red'>
             <a href='#' className='bg-white text-sm py-fifteen px-thirtyfive hover:bg-[#222222] hover:text-white'>
               Call Now +971557474109
             </a>
@@ -28,7 +28,7 @@ export default function Footer() {
       {/* footer section */}
       <section className='flex items-center justify-center text-white' style={{ backgroundImage: "url('/Assets/footer-bg.jpg')" }}>
         <div className='container py-12 px-3'>
-          <div className='flex'>
+          <div className='grid grid-cols-4 max-large-tab:grid-cols-2 max-md:grid-cols-1'>
             <div className='flex flex-col items-start w-full max-w-300 mb-6 px-3'>
               {/* Logo */}
               <Image src={logo} className='w-onefifty h-sixty' />
@@ -45,20 +45,20 @@ export default function Footer() {
             </div>
             {/* Services */}
             <div className='w-full max-w-200 mb-6 px-3'>
-              <h5 className='flex items-center mb-6 font-semibold'><p className='bg-[#BB0612] w-seven h-seven mr-2.5'></p>Services</h5>
+              <h5 className='flex items-center mb-6 font-semibold'><p className='bg-red w-seven h-seven mr-2.5'></p>Services</h5>
               <ul className='flex flex-col gap-y-3 text-fifteen'>
-                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty' />Auto Maintenance</a></li>
-                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty' />Change Tires</a></li>
-                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty' />New Tires</a></li>
+                <li><a href='#' className='flex items-center hover:text-red'><TiTick className='mr-five w-twenty h-twenty' />Auto Maintenance</a></li>
+                <li><a href='#' className='flex items-center hover:text-red'><TiTick className='mr-five w-twenty h-twenty' />Change Tires</a></li>
+                <li><a href='#' className='flex items-center hover:text-red'><TiTick className='mr-five w-twenty h-twenty' />New Tires</a></li>
               </ul>
             </div>
             {/* Address */}
             <div className='w-full max-w-300 mb-6 px-3'>
-              <h5 className='flex items-center mb-6 font-semibold'><p className='bg-[#BB0612] w-seven h-seven mr-2.5'></p>Address</h5>
+              <h5 className='flex items-center mb-6 font-semibold'><p className='bg-red w-seven h-seven mr-2.5'></p>Address</h5>
               <ul className='flex flex-col gap-y-3 text-fifteen'>
                 <li>Head Office Address Dubai</li>
-                <li><a href='#' className='hover:text-[#BB0612]'>Phone:+971-55-747-4109</a></li>
-                <li><a href='#' className='hover:text-[#BB0612]'>Email:info@carstyrerepair.com</a></li>
+                <li><a href='#' className='hover:text-red'>Phone:+971-55-747-4109</a></li>
+                <li><a href='#' className='hover:text-red'>Email:info@carstyrerepair.com</a></li>
               </ul>
             </div>
             {/* Footer image */}
@@ -70,7 +70,7 @@ export default function Footer() {
       </section>
       {/* Copyright section */}
       <section className='flex items-end justify-end text-white' style={{ backgroundImage: "url('/Assets/footer-bg.jpg')" }}>
-        <div className='w-full max-w-1359 flex justify-around bg-[#BB0612] py-6 text-fifteen'>
+        <div className='w-full max-w-1359 flex justify-around max-md:flex-col max-md:justify-center max-md:items-center max-md:text-center bg-red py-6 text-fifteen'>
           <div className='w-full max-w-600 px-3'>
             <p className=''>Copyright © 2024 carstyrerepair.com Develop by DevsRank</p>
           </div>
