@@ -47,9 +47,9 @@ export default function Footer() {
             <div className='w-full max-w-200 mb-6 px-3'>
               <h5 className='flex items-center mb-6 font-semibold'><p className='bg-[#BB0612] w-seven h-seven mr-2.5'></p>Services</h5>
               <ul className='flex flex-col gap-y-3 text-fifteen'>
-                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>Auto Maintenance</a></li>
-                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>Change Tires</a></li>
-                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>New Tires</a></li>
+                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty' />Auto Maintenance</a></li>
+                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty' />Change Tires</a></li>
+                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty' />New Tires</a></li>
               </ul>
             </div>
             {/* Address */}
@@ -63,8 +63,19 @@ export default function Footer() {
             </div>
             {/* Footer image */}
             <div>
-                <Image src={footerImg}/>
+              <Image src={footerImg} />
             </div>
+          </div>
+        </div>
+      </section>
+      {/* Copyright section */}
+      <section className='flex items-end justify-end text-white' style={{ backgroundImage: "url('/Assets/footer-bg.jpg')" }}>
+        <div className='w-full max-w-1359 flex justify-around bg-[#BB0612] py-6 text-fifteen'>
+          <div className='w-full max-w-600 px-3'>
+            <p className=''>Copyright © 2024 carstyrerepair.com Develop by DevsRank</p>
+          </div>
+          <div className='w-full max-w-576 px-4 text-center'>
+            <span><a href='#about' className='mr-5'>About Us</a> | <a href='#Services'>Services</a></span>
           </div>
         </div>
       </section>
