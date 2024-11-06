@@ -23,7 +23,8 @@ module.exports = {
       },
       fontSize: {
         fifteen: '15px',
-        seventeen: '17px'
+        seventeen: '17px',
+        twintytwo: '22px',
       },
       padding: {
         fifteen: '15px',
