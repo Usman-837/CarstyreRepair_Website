@@ -23,7 +23,7 @@ module.exports = {
       },
       fontSize: {
         fifteen: '15px',
-        seventeen: '17px'
+        twintytwo: '22px',
       },
       padding: {
         fifteen: '15px',
@@ -31,8 +31,27 @@ module.exports = {
         fiftyfive: '55px'
       },
       margin: {
-        twintytwo: '22px'
+        twintytwo: '22px',
+        '5': '5px'
       },
+      width: {
+        'onefifty': '150px',
+        'twenty': '20px',
+        'seven': '7px',
+        'five': '5px'
+      },
+      maxWidth: {
+        '1359': '1350px',
+        '600': '600px',
+        '576': '576px',
+        '300': '300px',
+        '200': '200px'
+      },
+      height: {
+        'sixty': '60px',
+        'twenty': '20px',
+        'seven': '7px'
+      }
     },
   },
   plugins: [],
