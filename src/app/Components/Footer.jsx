@@ -42,12 +42,22 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className='mb-6 px-3'>
+            {/* Services */}
+            <div className='w-full max-w-200 mb-6 px-3'>
               <h5 className='flex items-center mb-6 font-semibold'><p className='bg-[#BB0612] w-seven h-seven mr-2.5'></p>Services</h5>
-              <ul className='flex flex-col gap-y-3'>
-                <li><a href='#' className='flex items-center text-fifteen hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>Auto Maintenance</a></li>
-                <li><a href='#' className='flex items-center text-fifteen hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>Change Tires</a></li>
-                <li><a href='#' className='flex items-center text-fifteen hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>New Tires</a></li>
+              <ul className='flex flex-col gap-y-3 text-fifteen'>
+                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>Auto Maintenance</a></li>
+                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>Change Tires</a></li>
+                <li><a href='#' className='flex items-center hover:text-[#BB0612]'><TiTick className='mr-five w-twenty h-twenty'/>New Tires</a></li>
+              </ul>
+            </div>
+            {/* Address */}
+            <div className='w-full max-w-300 mb-6 px-3'>
+              <h5 className='flex items-center mb-6 font-semibold'><p className='bg-[#BB0612] w-seven h-seven mr-2.5'></p>Address</h5>
+              <ul className='flex flex-col gap-y-3 text-fifteen'>
+                <li>Head Office Address Dubai</li>
+                <li><a href='#' className='hover:text-[#BB0612]'>Phone:+971-55-747-4109</a></li>
+                <li><a href='#' className='hover:text-[#BB0612]'>Email:info@carstyrerepair.com</a></li>
               </ul>
             </div>
           </div>
