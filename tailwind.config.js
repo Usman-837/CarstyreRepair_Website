@@ -32,8 +32,14 @@ module.exports = {
         fiftyfive: '55px'
       },
       margin: {
-        twintytwo: '22px'
+        twintytwo: '22px',
       },
+      width: {
+        'onefifty': '150px'
+      },
+      height: {
+        'sixty': '60px',
+      }
     },
   },
   plugins: [],
