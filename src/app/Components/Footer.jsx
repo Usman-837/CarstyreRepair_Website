@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from "../Assets/logo.png"
-import { FaFacebookF } from "react-icons/fa6"
-import { FaLinkedinIn } from "react-icons/fa"
+import { FaFacebook } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa6"
 import { FaGoogle } from "react-icons/fa"
 import { TiTick } from "react-icons/ti"
@@ -35,11 +35,11 @@ export default function Footer() {
               <p className='py-2 my-6 text-fifteen'>If you are in the middle of something and you don’t want to miss that important call that could be the start of an exciting new business</p>
               {/* Social Icons */}
               <div className='flex items-center justify-center'>
-                <ul className='flex gap-3 text-seventeen'>
-                  <li><a href="#"><FaFacebookF /></a></li>
-                  <li><a href="#"><FaInstagram /></a></li>
-                  <li><a href="#"><FaGoogle /></a></li>
-                  <li><a href="#"><FaLinkedinIn /></a></li>
+                <ul className='flex gap-x-3 text-xl'>
+                  <li className='mr-5'><a href="#"><FaFacebook /></a></li>
+                  <li className='mr-5'><a href="#"><FaInstagram /></a></li>
+                  <li className='mr-5'><a href="#"><FaGoogle /></a></li>
+                  <li className='mr-5'><a href="#"><FaLinkedin /></a></li>
                 </ul>
               </div>
             </div>
