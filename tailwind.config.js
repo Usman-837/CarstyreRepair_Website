@@ -51,7 +51,13 @@ module.exports = {
         'sixty': '60px',
         'twenty': '20px',
         'seven': '7px'
-      }
+      },
+      screens: {
+        'large-tab': '993px',
+      },
+      colors: {
+        'red': '#BB0612',
+      },
     },
   },
   plugins: [],
