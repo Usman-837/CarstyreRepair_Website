@@ -79,7 +79,7 @@ export default function Testimonial() {
   ]
 
   return (
-    <section className='py-90 flex items-center justify-center'>
+    <section className='py-90 flex items-center justify-center bg-white'>
       <div className='container flex items-center justify-between max-large-tab:flex-wrap max-large-tab:justify-center'>
         <div className='px-3'>
           <Image src={Testimonialimg1} alt="Testimonial Image" />
