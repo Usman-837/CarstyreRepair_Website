@@ -46,7 +46,7 @@ function Navbar() {
       </div>
       {
         menu ? (
-          <div className='absolute top-0 right-0 w-9/12 h-screen flex flex-col bg-white z-100'>
+          <div className='fixed top-0 right-0 w-9/12 h-screen flex flex-col bg-white z-50'>
             <div className='flex items-center justify-between p-4'>
               <Image src={logo} className='w-onefifty h-sixty' alt="logo" />
               <div className='p-2 text-2xl text-gray-500 cursor-pointer' onClick={() => setMenu(!menu)}>
