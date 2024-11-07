@@ -13,8 +13,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'], // Custom font class for Roboto
       },
-      roboto: ['Roboto', 'sans-serif'], // Custom font class for Roboto
       opacity: {
         85: '0.85', // For example, 85% opacity
       },
@@ -42,6 +42,7 @@ module.exports = {
       },
       maxWidth: {
         '1359': '1350px',
+        '1200': '1200px',
         '600': '600px',
         '576': '576px',
         '300': '300px',
@@ -49,14 +50,17 @@ module.exports = {
       },
       height: {
         'sixty': '60px',
+        '76': '76px',
         'twenty': '20px',
         'seven': '7px'
       },
       screens: {
         'large-tab': '993px',
+        'xs-mobile': '480px'
       },
       colors: {
         'red': '#BB0612',
+        'custom-black': '#222222'
       },
     },
   },
