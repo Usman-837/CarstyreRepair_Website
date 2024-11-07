@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Features = () => {
     return (
-        <section id='about' className='py-[90px] flex items-center justify-center'>
+        <section id='about' className='py-[90px] flex items-center justify-center bg-white'>
             <div className='container w-full flex gap-x-16 justify-between max-md:flex-col-reverse max-md:gap-y-8 max-large-tab:gap-x-0 max-md:px-3'>
                 <div className='flex-1 flex justify-center max-w-[512px] h-[550px] px-3 max-md:px-3'>
                     <Image src={img} alt="Feature image" />
