@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Banner = () => {
   return (
-    <section className="relative h-screen bg-cover bg-center flex justify-center" style={{ backgroundImage: "url('/Assets/banner-bg.jpg')" }}>
+    <section id="home" className="relative h-screen bg-cover bg-center flex justify-center" style={{ backgroundImage: "url('/Assets/banner-bg.jpg')" }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-75"/>
       {/* Content */}
