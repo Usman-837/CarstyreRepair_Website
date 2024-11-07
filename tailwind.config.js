@@ -38,6 +38,7 @@ module.exports = {
       },
       width: {
         'onefifty': '150px',
+        '50': '50px',
         'twenty': '20px',
         'seven': '7px',
         'five': '5px'
@@ -45,13 +46,16 @@ module.exports = {
       maxWidth: {
         '1359': '1350px',
         '1200': '1200px',
+        '700': '700px',
         '600': '600px',
         '576': '576px',
         '300': '300px',
         '200': '200px'
       },
       height: {
+        '270': '270px',
         'sixty': '60px',
+        '50': '50px',
         '76': '76px',
         'twenty': '20px',
         'seven': '7px'
