@@ -70,9 +70,9 @@ const Services = () => {
         <>
             <section id='services' className='flex items-center justify-center bg-white'>
                 <div className='container w-full'>
-                    <div className='pb-150'>
+                    <div className='pb-150 max-md:text-center'>
                         <p className="mb-4 px-3 text-base font-bold text-red">// Our Services //</p>
-                        <h2 className='mb-2 px-3 font-semibold text-4xl'>Our Best Features</h2>
+                        <h2 className='mb-2 px-3 font-semibold text-4xl max-md:text-2xl'>Our Best Features</h2>
                     </div>
                 </div>
             </section>
