@@ -54,25 +54,25 @@ export default function Testimonial() {
   const clientsInfo = [
     {
       id: 1,
-      des: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, labore! Laborum modi, earum autem obcaecati maxime accusamus provident delectus libero, optio qui id dolore reiciendis, quod hic at quidem non.",
+      des: "I recently had my tires replaced at home and i must say, I was thoroghly impressed with the service. The technician arrived punctually, and the job was completed swiftly and with utmost professionalism",
       title: "Emily",
       img: clientimg1
     },
     {
-      id: 1,
-      des: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, labore! Laborum modi, earum autem obcaecati maxime accusamus provident delectus libero, optio qui id dolore reiciendis, quod hic at quidem non.",
+      id: 2,
+      des: "I requested an emergency puncture repair and was impressed by the team's prompt and efficient service. They arrived swiftly and resolved the issue promptly",
       title: "Isabella",
       img: clientimg2
     },
     {
       id: 3,
-      des: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, labore! Laborum modi, earum autem obcaecati maxime accusamus provident delectus libero, optio qui id dolore reiciendis, quod hic at quidem non.",
+      des: "I recently had my tires replaced at home and i must say, I was thoroghly impressed with the service. The technician arrived punctually, and the job was completed swiftly and with utmost professionalism",
       title: "Emily",
       img: clientimg1
     },
     {
       id: 4,
-      des: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, labore! Laborum modi, earum autem obcaecati maxime accusamus provident delectus libero, optio qui id dolore reiciendis, quod hic at quidem non.",
+      des: "I requested an emergency puncture repair and was impressed by the team's prompt and efficient service. They arrived swiftly and resolved the issue promptly",
       title: "Charlotte",
       img: clientimg2
     }
