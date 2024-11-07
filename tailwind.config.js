@@ -28,7 +28,9 @@ module.exports = {
       padding: {
         fifteen: '15px',
         thirtyfive: '35px',
-        fiftyfive: '55px'
+        fiftyfive: '55px',
+        '150': '150px',
+        '90': '90px'
       },
       margin: {
         twintytwo: '22px',

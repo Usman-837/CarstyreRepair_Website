@@ -69,34 +69,38 @@ const Services = () => {
     return (
         <>
             <section className='flex items-center justify-center' id='services'>
-                <div className='w-full max-w-[1200px]'>
-                    <div className='pb-[150px]'>
-                        <p className="mb-4 px-3 text-base font-bold text-[#BB0612]">// Our Services //</p>
+                <div className='container w-full'>
+                    <div className='pb-150'>
+                        <p className="mb-4 px-3 text-base font-bold text-red">// Our Services //</p>
                         <h2 className='mb-2 px-3 font-semibold text-4xl'>Our Best Features</h2>
                     </div>
                 </div>
             </section>
-            <section id='services' className='relative flex items-center justify-center' style={{backgroundImage: "url('/Assets/banner-bg.jpg')", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}}>
+            <section id='services' className='relative flex items-center justify-center' style={{ backgroundImage: "url('/Assets/banner-bg.jpg')", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center" }}>
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-85"></div>
 
                 {/* Content */}
-                <div className='relative w-full max-w-[1200px] top-[-115px]'>
-                    <div className='flex flex-wrap justify-center mb-4'>
+                <div className='relative w-full container top-[-115px]'>
+                    <div className='grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 justify-center mb-4'>
                         {
                             servicCards.map((data) => (
-                                <div key={data.id} className='w-full max-w-[376px] m-3'>
-                                    <Image src={data.img1} className='h-[230px]' alt={data.title} />
-                                    <div className='p-6 h-[353px] bg-white'>
-                                        <h4 className='font-bold text-[22px] mb-2'>{data.title}</h4>
-                                        <p className='mb-4 text-[15px] leading-[1.9]'>{data.des}</p>
-                                        <ul className='list-disc pl-8'>
-                                            <li>{data.listItem1}</li>
-                                            <li>{data.listItem2}</li>
-                                            <li>{data.listItem3}</li>
-                                        </ul>
-                                        <div className='flex items-center text-white mt-5'>
-                                            <a href='#' className='bg-[#BB0612] text-center text-sm py-[15px] px-[35px] hover:bg-[#222222]'>
+                                <div key={data.id} className='w-full px-3 mb-6'>
+                                    <div>
+                                        <Image src={data.img1} alt={data.title} className='w-full'/>
+                                    </div>
+                                    <div className='p-6 bg-white h-[353px] flex flex-col justify-between'>
+                                        <div>
+                                            <h4 className='font-bold text-twintytwo mb-2'>{data.title}</h4>
+                                            <p className='mb-4 text-fifteen leading-[1.9]'>{data.des}</p>
+                                            <ul className='list-disc pl-8'>
+                                                <li>{data.listItem1}</li>
+                                                <li>{data.listItem2}</li>
+                                                <li>{data.listItem3}</li>
+                                            </ul>
+                                        </div>
+                                        <div className='flex items-center text-white'>
+                                            <a href='#' className='bg-red text-center text-sm py-fifteen px-thirtyfive hover:bg-custom-black'>
                                                 Call Now +971557474109
                                             </a>
                                         </div>
@@ -105,13 +109,13 @@ const Services = () => {
                             ))
                         }
                     </div>
-                    <div className='flex items-center justify-center text-center flex-wrap gap-x-4 pt-[90px] px-4'>
+                    <div className='flex items-center justify-center text-center flex-wrap gap-x-4 pt-90 px-4'>
                         <h1 className='font-bold text-white text-6xl max-md:text-4xl'>Fastest on-site Tyre Repair </h1>
                         <div className='flex items-center text-white max-xl:mt-12'>
-                            <a href='#' className='bg-[#BB0612] text-center text-sm py-[15px] px-[35px] hover:bg-[#222222]'>
+                            <a href='#' className='bg-red text-center text-sm py-fifteen px-thirtyfive hover:bg-custom-black'>
                                 Call Now +971557474109
                             </a>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </section>
