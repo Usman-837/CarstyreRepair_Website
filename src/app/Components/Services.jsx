@@ -68,7 +68,7 @@ const Services = () => {
 
     return (
         <>
-            <section className='flex items-center justify-center bg-white' id='services'>
+            <section id='services' className='flex items-center justify-center bg-white'>
                 <div className='container w-full'>
                     <div className='pb-150'>
                         <p className="mb-4 px-3 text-base font-bold text-red">// Our Services //</p>
@@ -76,7 +76,7 @@ const Services = () => {
                     </div>
                 </div>
             </section>
-            <section id='services' className='relative flex items-center justify-center' style={{ backgroundImage: "url('/Assets/banner-bg.jpg')", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center" }}>
+            <section className='relative flex items-center justify-center' style={{ backgroundImage: "url('/Assets/banner-bg.jpg')", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center" }}>
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-85"></div>
 

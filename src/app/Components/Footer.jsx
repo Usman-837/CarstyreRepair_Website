@@ -10,7 +10,7 @@ import footerImg from "../Assets/footer.webp"
 
 export default function Footer() {
   return (
-    <footer>
+    <footer id='contact'>
       {/* Emergency call section */}
       <section className='flex items-center justify-center w-full max-w-[1250px] py-12 bg-red'>
         <div className='container flex items-center justify-between max-md:flex-col max-md:justify-center max-md:text-center py-4 mx-3 text-white'>
@@ -75,7 +75,7 @@ export default function Footer() {
             <p className=''>Copyright © 2024 carstyrerepair.com Develop by DevsRank</p>
           </div>
           <div className='w-full max-w-576 px-4 text-center'>
-            <span><a href='#about' className='mr-5'>About Us</a> | <a href='#Services'>Services</a></span>
+            <span><a href='#about' className='mr-5'>About Us</a> | <a href='#services'>Services</a></span>
           </div>
         </div>
       </section>
