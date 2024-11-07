@@ -68,7 +68,7 @@ const Services = () => {
 
     return (
         <>
-            <section className='flex items-center justify-center' id='services'>
+            <section className='flex items-center justify-center bg-white' id='services'>
                 <div className='container w-full'>
                     <div className='pb-150'>
                         <p className="mb-4 px-3 text-base font-bold text-red">// Our Services //</p>
